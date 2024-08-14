@@ -7,7 +7,7 @@ export default function page({}: Props) {
     const user_name = e.currentTarget.user_name.value
     const password = e.currentTarget.password.value
 
-    const res = await fetch('http://localhost:3000/api/auth/login', {
+    const res = await fetch(`${process.env.BASE_URL}/api/auth/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

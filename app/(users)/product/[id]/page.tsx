@@ -21,7 +21,7 @@ const getProductDetails = async (id: string) => {
 }
 
 const generateBlurDataURL = async ({ url }: { url: string }) => {
-  const response = await fetch('http://localhost:3000/api/shop/blur', {
+  const response = await fetch(`${process.env.BASE_URL}/api/shop/blur`, {
     method: 'POST',
     body: JSON.stringify({ imageUrl: url })
   })
