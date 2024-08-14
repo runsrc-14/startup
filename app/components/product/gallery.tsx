@@ -29,7 +29,7 @@ export function Gallery({
               key={index}
               className={clsx({
                 "h-full w-full object-contain": index === idxImage,
-                hidden: index !== idxImage,
+                "hidden": index !== idxImage,
               })}
               fill
               sizes="(min-width: 1024px) 66vw, 100vw"
