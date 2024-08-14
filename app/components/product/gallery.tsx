@@ -23,7 +23,8 @@ export function Gallery({ images, blurDataURL }: { images: { src: string; altTex
             src={images[idxImage].src}
             placeholder='blur'
             fill
-            priority={idxImage === 0}
+            loading={idxImage === 0 ? 'eager' : 'lazy'}
+            priority={idxImage === 0 ? true : false}
             blurDataURL={blurDataURL}
             sizes='66vw, 100vw'
             className='h-full w-full object-contain'
