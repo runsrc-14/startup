@@ -2,8 +2,6 @@ import { Suspense } from 'react'
 
 import { notFound } from 'next/navigation'
 
-import Image from 'next/image'
-
 import { Metadata } from 'next'
 
 import { Gallery } from '../../../components/product/gallery'

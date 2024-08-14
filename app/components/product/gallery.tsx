@@ -30,6 +30,7 @@ export function Gallery({
               className={clsx({
                 "h-full w-full object-contain": index === idxImage,
                 "hidden": index !== idxImage,
+                "transition duration-300 ease-in-out hover:scale-105": true,
               })}
               fill
               sizes="(min-width: 1024px) 66vw, 100vw"
@@ -113,6 +114,7 @@ export function Gallery({
                 key={index}
                 className="h-20 w-20"
                 onClick={() => setIdxImage(index)}
+                onMouseEnter={() => setIdxImage(index)}
               >
                 <div className="h-full w-full">
                   <div
