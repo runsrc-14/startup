@@ -1,26 +1,26 @@
-import withPlaiceholder from '@plaiceholder/next'
+import withPlaiceholder from "@plaiceholder/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  output: 'export',
+  output: "standalone",
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'loremflickr.com',
-        port: '',
-        pathname: '/**'
+        protocol: "https",
+        hostname: "loremflickr.com",
+        port: "",
+        pathname: "/**",
       },
       {
-        protocol: 'https',
-        hostname: 'cdn.dummyjson.com',
-        port: '',
-        pathname: '/**'
-      }
+        protocol: "https",
+        hostname: "cdn.dummyjson.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
-    formats: ['image/avif']
-  }
-}
+    formats: ["image/avif"],
+  },
+};
 
-export default withPlaiceholder(nextConfig)
+export default withPlaiceholder(nextConfig);
