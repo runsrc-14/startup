@@ -16,14 +16,10 @@ const ProductListComponents = ({ products }: { products: Product[] }) => {
           <Link href={`/product/${item.id}`}>
             <div className="group flex h-full w-full items-center justify-center overflow-hidden rounded-lg border bg-white hover:border-blue-600 dark:bg-black relative border-neutral-200 dark:border-neutral-800">
               <Image
-
                 src={item.images[0]}
-
                 // src={item.images[0]}
                 alt={item.description}
-
                 // loading="lazy"
-
                 priority
                 fill
                 className="relative h-full w-full object-contain transition duration-300 ease-in-out group-hover:scale-105"
