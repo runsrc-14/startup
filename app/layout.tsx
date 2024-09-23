@@ -1,5 +1,5 @@
-
-import { Inter, Kanit, Roboto, Alata  } from "next/font/google";
+import { Inter, Kanit, Roboto, Alata } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import type { Metadata } from "next";
 import "./globals.css";
@@ -32,6 +32,7 @@ export default function RootLayout({
         className={`${kanit.className} bg-neutral-50 text-black selection:bg-teal-300 dark:bg-neutral-900 dark:text-white dark:selection:bg-pink-500 dark:selection:text-white`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
