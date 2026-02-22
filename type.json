@@ -1,0 +1,19 @@
+{
+    "Users": {
+        "code": "100",
+        "message": "success",
+        "data": {
+            "user_id": 61,
+            "ou_code": "000",
+            "role_id": 3,
+            "role_name": "user",
+            "dept_id": 7,
+            "dept_code": "DTD",
+            "user_name": "sirichai_p",
+            "name_th": "ศิริชัย พันธุ์ชาญ",
+            "name_eng": "Sirichai Phanchan",
+            "email": "sirichai_p@betterway.co.th"
+        },
+        "token": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..oDIT2ditWMO1uMke.x3sdcbtIw4dswyF3OvrICm0XbiN1gl4c5swgSGlMXvikGURQWyNChhP9twxGBW7gLlsjfmHG3KN9b1NF3flUqmtMjiIqncK04ci6wlFEJaGS3XVcOOTv1ox2NhTcSuGT_M19hNXXvPMuWCuuDl9fpnrs5IQQBBh-ncnP3ej5KNtw5xDWZ2mXLaeYrZYnNJwhP4vh6pv84_vP2kslH8V11HnnMqF3WRvtNyFkzZ4rF8nhUg11E4jHESMY0Uh4FlOyJMFIgtPiWUoK3y2cAPBQJcPkikWb-bEF2CuJNit80xoeyQC1m3l5gBoh1UtFvvZM6v-sqs_1xo_oo6n7d_p4sMyz3ORXIDx2ZzYOW4FMUzyxi0MFiMZZkQZ6sM3PPK8bKaFERWmARcGTZOtwZ3xn3QLY8tS-IVHVJxypRBDs20BIGcar0A.Cg8ogyVLVaUSOB8pLKB8Pw"
+    }
+}
